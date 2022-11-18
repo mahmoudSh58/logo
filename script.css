@@ -1,0 +1,23 @@
+.logo {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 300px;
+    position: relative;
+}
+
+.logo span {
+    position: absolute;
+}
+
+.logo span:last-child {
+    left: 130px;
+    top: 60px;
+    color: #fc3;
+}
+
+.logo span:nth-child(2) {
+    font-size: 54px;
+    transform: rotate(90deg);
+    left: 80px;
+    top: 140px;
+}
