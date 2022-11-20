@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+
+.back {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    overflow: hidden;
+}
+
+.logo {
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 230px;
+    position: relative;
+    z-index: 100;
+    top: 21vh;
+    left: 40vw;
+    width: 0px;
+    height: 0px;
+}
+
+.logo span {
+    position: absolute;
+}
+
+.logo span:first-child {
+    animation: c 6s infinite forwards;
+}
+
+.logo span:last-child {
+    left: 99px;
+    top: 46px;
+    color: #fc3;
+}
+
+.logo span:nth-child(2) {
+    font-size: 41px;
+    transform: rotate(90deg);
+    left: 61px;
+    top: 107px;
+}
+
+@keyframes c {
+    0% {
+        transform: translateY(-362px);
+    }
+
+    30% {
+        transform: translateY(0px);
+    }
+
+    60% {
+        transform: translateY(0px);
+    }
+
+    85% {
+        transform: translateY(-362px);
+    }
+
+    100% {
+        transform: translateY(-362px);
+    }
+
+}
